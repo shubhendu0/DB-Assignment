@@ -5,6 +5,7 @@ Answer 1.  Here we are storing references to documents in other collection. In t
 
 Answer 2.  When using Nodejs and MongoDb we have to make sure that while creating Schemas for "Product" collection we have to make sure 
            that the field "category_id" has specified the datatype of that particular field and reference to other collection.
+           
            Example :        const ProductSchema = new mongoose.Schema(
                               {
                                   category_id: { 
