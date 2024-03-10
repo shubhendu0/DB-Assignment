@@ -1,3 +1,5 @@
+// This is the Schema for "Product" collection.
+
 const mongoose = require("mongoose");
 
 const ProductSchema = new mongoose.Schema(
