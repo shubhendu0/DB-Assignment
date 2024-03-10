@@ -11,10 +11,8 @@ Answer 2.  When using Nodejs and MongoDb we have to make sure that while creatin
                                       type: mongoose.Schema.Types.ObjectId, 
                                       ref: 'product_category', 
                                       required: true,
-                                  },
-                                  
+                                  },                                 
                                   name: { type: String, required: true },
-                                  desc: { type: String, required: true },
-                                  
+                                  desc: { type: String, required: true },                              
                               }
                             )
